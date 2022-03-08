@@ -1,5 +1,2 @@
 # GitHub
-Aggiornamento 1
-Aggiornamento 2
-Aggiornamento 3
-Aggiornamento 4
+Siamo punto e a capo con Windows
