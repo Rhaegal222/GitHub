@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Algoritirmi-Paralleli-e-Sistemi-Distribuiti" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Basi-di-Dati" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fondamenti-di-Programmazione-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fondamenti-di-Programmazione-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sistemi-Operativi-e-Reti" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/User-Interface-Design" vcs="Git" />
+  </component>
+</project>
