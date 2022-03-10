@@ -1,0 +1,9 @@
+[submodule "Algoritirmi-Paralleli-e-Sistemi-Distribuiti"]
+	path = Algoritirmi-Paralleli-e-Sistemi-Distribuiti
+	url = https://github.com/Rhaegal222/Algoritirmi-Paralleli-e-Sistemi-Distribuiti
+[submodule "Basi-di-Dati"]
+	path = Basi-di-Dati
+	url = https://github.com/Rhaegal222/Basi-di-Dati
+[submodule "Fondamenti-di-Programmazione-1"]
+	path = Fondamenti-di-Programmazione-1
+	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-1
