@@ -4,9 +4,6 @@
 [submodule "Basi-di-Dati"]
 	path = Basi-di-Dati
 	url = https://github.com/Rhaegal222/Basi-di-Dati
-[submodule "Fondamenti-di-Programmazione-2"]
-	path = Fondamenti-di-Programmazione-2
-	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-2
 [submodule "Fondamenti-di-Programmazione-1"]
 	path = Fondamenti-di-Programmazione-1
 	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-1
@@ -16,3 +13,6 @@
 [submodule "User-Interface-Design"]
 	path = User-Interface-Design
 	url = https://github.com/Rhaegal222/User-Interface-Design.git
+[submodule "Fondamenti-di-Programmazione-2"]
+	path = Fondamenti-di-Programmazione-2
+	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-2
