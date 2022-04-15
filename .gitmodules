@@ -22,3 +22,6 @@
 [submodule "BookManager"]
 	path = BookManager
 	url = https://github.com/FrancescoGallo728/BookManager
+[submodule "Progetto-UID"]
+	path = Progetto-UID
+	url = https://github.com/Rhaegal222/Progetto-UID
