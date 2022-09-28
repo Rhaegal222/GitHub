@@ -7,9 +7,9 @@
 [submodule "Fondamenti-di-Programmazione-1"]
 	path = Fondamenti-di-Programmazione-1
 	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-1
-[submodule "Fondamenti-di-Programmazione-1"]
-	path = Fondamenti-di-Programmazione-1
-	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-1
+[submodule "Fondamenti-di-Programmazione-2"]
+	path = Fondamenti-di-Programmazione-2
+	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-2
 [submodule "Sistemi-Operativi-e-Reti"]
 	path = Sistemi-Operativi-e-Reti
 	url = https://github.com/Rhaegal222/Sistemi-Operativi-e-Reti
