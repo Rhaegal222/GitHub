@@ -4,7 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"algorithm": "cpp",
+			"*.tcc": "cpp"
+		}
+	},
 	"launch": {
 		"version": "0.2.0",
 		"configurations": [
