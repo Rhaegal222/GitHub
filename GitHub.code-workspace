@@ -55,7 +55,8 @@
 			"numbers": "cpp",
 			"stdexcept": "cpp",
 			"streambuf": "cpp",
-			"typeinfo": "cpp"
+			"typeinfo": "cpp",
+			"sstream": "cpp"
 		},
 		"livePreview.defaultPreviewPath": "d:\\Users\\Rhaegal222\\OneDrive - Università della Calabria\\GitHub\\Private\\Analisi Ciclica\\Formazione.html"
 	}
