@@ -19,9 +19,6 @@
 [submodule "Sistemi-Operativi-e-Reti"]
 	path = Sistemi-Operativi-e-Reti
 	url = https://github.com/Rhaegal222/Sistemi-Operativi-e-Reti
-[submodule "Private"]
-	path = Private
-	url = https://github.com/Rhaegal222/Private
 [submodule "Progetto-DB"]
 	path = Progetto-DB
 	url = https://github.com/Rhaegal222/Progetto-DB.git
