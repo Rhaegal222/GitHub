@@ -22,3 +22,6 @@
 [submodule "Progetto-DB"]
 	path = Progetto-DB
 	url = https://github.com/Rhaegal222/Progetto-DB.git
+[submodule "ProvaEsame"]
+	path = ProvaEsame
+	url = https://github.com/Ranchoo28/ProvaEsame.git
