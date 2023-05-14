@@ -25,3 +25,6 @@
 [submodule "ProvaEsame"]
 	path = ProvaEsame
 	url = https://github.com/Ranchoo28/ProvaEsame.git
+[submodule "MVC-Wallet"]
+	path = MVC-Wallet
+	url = https://github.com/Ranchoo28/MVC-Wallet.git
