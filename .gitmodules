@@ -10,9 +10,6 @@
 [submodule "Basi-di-Dati"]
 	path = Basi-di-Dati
 	url = https://github.com/Rhaegal222/Basi-di-Dati
-[submodule "Progetto-UID"]
-	path = Progetto-UID
-	url = https://github.com/Rhaegal222/Progetto-UID
 [submodule "User-Interface-Design"]
 	path = User-Interface-Design
 	url = https://github.com/Rhaegal222/User-Interface-Design
@@ -22,9 +19,6 @@
 [submodule "Progetto-DB"]
 	path = Progetto-DB
 	url = https://github.com/Rhaegal222/Progetto-DB.git
-[submodule "ProvaEsame"]
-	path = ProvaEsame
-	url = https://github.com/Ranchoo28/ProvaEsame.git
 [submodule "MVC-Wallet"]
 	path = MVC-Wallet
 	url = https://github.com/Ranchoo28/MVC-Wallet.git
