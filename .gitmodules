@@ -19,6 +19,3 @@
 [submodule "Progetto-DB"]
 	path = Progetto-DB
 	url = https://github.com/Rhaegal222/Progetto-DB.git
-[submodule "MVC-Wallet"]
-	path = MVC-Wallet
-	url = https://github.com/Rhaegal222/MVC-Wallet.git
