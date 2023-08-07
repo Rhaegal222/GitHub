@@ -19,6 +19,6 @@
 [submodule "Progetto-DB"]
 	path = Progetto-DB
 	url = https://github.com/Rhaegal222/Progetto-DB.git
-[submodule "Progetto-2022-2023-Mahrous-Vecchio-Crea"]
-	path = Progetto-2022-2023-Mahrous-Vecchio-Crea
-	url = https://github.com/Rhaegal222/Progetto-2022-2023-Mahrous-Vecchio-Crea.git
+[submodule "MVC-Wallet"]
+	path = MVC-Wallet
+	url = https://github.com/Rhaegal222/MVC-Wallet.git
