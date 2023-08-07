@@ -19,6 +19,3 @@
 [submodule "Progetto-DB"]
 	path = Progetto-DB
 	url = https://github.com/Rhaegal222/Progetto-DB.git
-[submodule "GitHub-Private"]
-	path = GitHub-Private
-	url = https://github.com/Rhaegal222/GitHub-Private.git
