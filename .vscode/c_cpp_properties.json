@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/allegro5"
+                "/usr/include/allegro5/",
+                "/usr/include/x86_64-linux-gnu/mpich"
             ],
             "defines": [
                 "_DEBUG",
