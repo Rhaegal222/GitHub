@@ -22,3 +22,6 @@
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
+[submodule "Cyber-Offence-and-Defence"]
+	path = Cyber-Offence-and-Defence
+	url = https://github.com/Rhaegal222/Cyber-Offence-and-Defence
