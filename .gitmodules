@@ -25,3 +25,6 @@
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
+[submodule "Sistemi-Operativi"]
+	path = Sistemi-Operativi
+	url = https://github.com/Rhaegal222/Sistemi-Operativi.git
