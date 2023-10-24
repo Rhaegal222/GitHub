@@ -7,24 +7,24 @@
 [submodule "Cyber-Offence-and-Defence"]
 	path = Cyber-Offence-and-Defence
 	url = https://github.com/Rhaegal222/Cyber-Offence-and-Defence
-[submodule "Fondamenti-di-Programmazione-2"]
-	path = Fondamenti-di-Programmazione-2
-	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-2
 [submodule "Fondamenti-di-Programmazione-1"]
 	path = Fondamenti-di-Programmazione-1
 	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-1
+[submodule "Fondamenti-di-Programmazione-2"]
+	path = Fondamenti-di-Programmazione-2
+	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-2
+[submodule "Fondamenti-di-reti"]
+	path = Fondamenti-di-reti
+	url = https://github.com/Rhaegal222/Fondamenti-di-reti
 [submodule "Ingegneria-del-Software"]
 	path = Ingegneria-del-Software
 	url = https://github.com/Rhaegal222/Ingegneria-del-Software
-[submodule "Sistemi-Operativi-e-Reti"]
-	path = Sistemi-Operativi-e-Reti
-	url = https://github.com/Rhaegal222/Sistemi-Operativi-e-Reti
+[submodule "Sistemi-Operativi"]
+	path = Sistemi-Operativi
+	url = https://github.com/Rhaegal222/Sistemi-Operativi
 [submodule "User-Interface-Design"]
 	path = User-Interface-Design
 	url = https://github.com/Rhaegal222/User-Interface-Design
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
-[submodule "Fondamenti-di-reti"]
-	path = Fondamenti-di-reti
-	url = https://github.com/Rhaegal222/Fondamenti-di-reti
