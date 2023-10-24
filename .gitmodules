@@ -19,9 +19,6 @@
 [submodule "Ingegneria-del-Software"]
 	path = Ingegneria-del-Software
 	url = https://github.com/Rhaegal222/Ingegneria-del-Software
-[submodule "Sistemi-Operativi"]
-	path = Sistemi-Operativi
-	url = https://github.com/Rhaegal222/Sistemi-Operativi
 [submodule "User-Interface-Design"]
 	path = User-Interface-Design
 	url = https://github.com/Rhaegal222/User-Interface-Design
