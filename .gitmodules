@@ -13,15 +13,15 @@
 [submodule "Fondamenti-di-Programmazione-1"]
 	path = Fondamenti-di-Programmazione-1
 	url = https://github.com/Rhaegal222/Fondamenti-di-Programmazione-1
-[submodule "Sistemi-Operativi-e-Reti"]
-	path = Sistemi-Operativi-e-Reti
-	url = https://github.com/Rhaegal222/Sistemi-Operativi-e-Reti
-[submodule "GitHub-Private"]
-	path = GitHub-Private
-	url = https://github.com/Rhaegal222/GitHub-Private
 [submodule "Ingegneria-del-Software"]
 	path = Ingegneria-del-Software
 	url = https://github.com/Rhaegal222/Ingegneria-del-Software
+[submodule "Sistemi-Operativi-e-Reti"]
+	path = Sistemi-Operativi-e-Reti
+	url = https://github.com/Rhaegal222/Sistemi-Operativi-e-Reti
 [submodule "User-Interface-Design"]
 	path = User-Interface-Design
 	url = https://github.com/Rhaegal222/User-Interface-Design
+[submodule "GitHub-Private"]
+	path = GitHub-Private
+	url = https://github.com/Rhaegal222/GitHub-Private
