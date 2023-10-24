@@ -25,3 +25,6 @@
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
+[submodule "Fondamenti-di-reti"]
+	path = Fondamenti-di-reti
+	url = https://github.com/Rhaegal222/Fondamenti-di-reti
