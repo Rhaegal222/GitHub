@@ -28,3 +28,6 @@
 [submodule "Sistemi-Operativi"]
 	path = Sistemi-Operativi
 	url = https://github.com/Rhaegal222/Sistemi-Operativi.git
+[submodule "Web-Applications"]
+	path = Web-Applications
+	url = https://github.com/Rhaegal222/Web-Applications.git
