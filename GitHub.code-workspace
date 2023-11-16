@@ -7,6 +7,9 @@
     "settings": {
         "java.compile.nullAnalysis.mode": "automatic",
         "java.configuration.updateBuildConfiguration": "interactive",
-        "markdown-preview-enhanced.codeBlockTheme": "auto.css"
+        "markdown-preview-enhanced.codeBlockTheme": "auto.css",
+        "githubPullRequests.ignoredPullRequestBranches": [
+            "main"
+        ]
     }
 }
