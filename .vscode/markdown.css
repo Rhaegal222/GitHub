@@ -1,0 +1,88 @@
+/* Palette di colori freddi */
+:root {
+    --color-text: #000000; /* Nero per il testo generale */
+    --color-border: #cccccc; /* Grigio per i bordi */
+    --color-link: #555fff; /* Blu chiaro per i link */
+    --color-link-hover: #1c6fbf; /* Blu per i link al passaggio del mouse */
+    /*Blocchi di codice*/
+    --color-background: #f8f8f8; /* Colore di sfondo per i blocchi di codice */
+    --color-hljs-keyword: #0000ff; /* Parole chiave (come public, static) in blu */
+    --color-hljs-method: #795da3; /* Metodi e funzioni in un tono di viola chiaro */
+    --color-hljs-annotations: #008000; /* Annotazioni (come @Override) in verde */
+    --color-hljs-string: #d14; /* Stringhe in rosso-marrone */
+    --color-hljs-comment: #666666; /* Commenti in grigio scuro */
+    --color-code: #4d4d4c; /* Colore standard del testo del codice */
+}
+
+body, html, footer, header {
+font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+font-size: var(--vscode-markdown-font-size, 14px);
+padding: 0 26px;
+line-height: var(--vscode-markdown-line-height, 22px);
+word-wrap: break-word;
+color: var(--color-text);
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+    color: var(--color-hljs-comment); /* Change the old color so it seems less like an error */
+    font-size: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+text-decoration: none;
+color: var(--color-link);
+}
+
+a:hover {
+text-decoration: underline;
+color: var(--color-link-hover);
+}
+
+code, pre {
+font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+font-size: 1em;
+line-height: 1.357em;
+color: var(--color-code);
+}
+
+pre {
+background-color: var(--color-background);
+border: 1px solid var(--color-border);
+border-radius: 3px;
+overflow-x: auto;
+white-space: pre-wrap;
+overflow-wrap: break-word;
+padding: 16px;
+}
+
+/* Stili specifici per hljs */
+.hljs {
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+}
+
+.hljs-comment, .hljs-quote {
+color: var(--color-hljs-comment);
+}
+
+.hljs-keyword {
+color: var(--color-hljs-keyword);
+}
+
+.hljs-string {
+color: var(--color-hljs-string);
+}
+
+.hljs-number, .hljs-built_in, .hljs-builtin-name, .hljs-literal, .hljs-type, .hljs-params, .hljs-meta, .hljs-link {
+color: var(--color-hljs-annotations);
+}
+
+.hljs-title, .hljs-section {
+    color: var(--color-hljs-method);
+}
