@@ -2,8 +2,8 @@
 :root {
     --color-text: #000000; /* Nero per il testo generale */
     --color-border: #cccccc; /* Grigio per i bordi */
-    --color-link: #555fff; /* Blu chiaro per i link */
-    --color-link-hover: #1c6fbf; /* Blu per i link al passaggio del mouse */
+    --color-link: #080808; /* Blu chiaro per i link */
+    --color-link-hover: #505050; /* Blu per i link al passaggio del mouse */
     /*Blocchi di codice*/
     --color-background: #f8f8f8; /* Colore di sfondo per i blocchi di codice */
     --color-hljs-keyword: #0000ff; /* Parole chiave (come public, static) in blu */
@@ -17,7 +17,7 @@
 body, html, footer, header {
 font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
 font-size: var(--vscode-markdown-font-size, 14px);
-padding: 0 26px;
+padding: 0 15px;
 line-height: var(--vscode-markdown-line-height, 22px);
 word-wrap: break-word;
 color: var(--color-text);
@@ -27,10 +27,6 @@ color: var(--color-text);
 :not(pre):not(.hljs) > code {
     color: var(--color-hljs-comment); /* Change the old color so it seems less like an error */
     font-size: inherit;
-}
-
-ul, ol {
-    list-style-type: none;
 }
 
 a {
@@ -85,4 +81,12 @@ color: var(--color-hljs-annotations);
 
 .hljs-title, .hljs-section {
     color: var(--color-hljs-method);
+}
+
+div.indice ul{
+    list-style-type: none;
+}
+
+div.numero {
+    margin-right: 0;
 }
