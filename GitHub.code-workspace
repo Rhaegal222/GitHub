@@ -59,15 +59,9 @@
 			"stdexcept": "cpp",
 			"streambuf": "cpp",
 			"cinttypes": "cpp",
-			"typeinfo": "cpp",
-			"semaphore": "cpp",
-			"stop_token": "cpp",
-			"thread": "cpp"
+			"typeinfo": "cpp"
 		},
 		"java.configuration.updateBuildConfiguration": "interactive",
-		"java.compile.nullAnalysis.mode": "automatic",
-		"githubPullRequests.ignoredPullRequestBranches": [
-			"main"
-		]
+		"java.compile.nullAnalysis.mode": "automatic"
 	}
 }
