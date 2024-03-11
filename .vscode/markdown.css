@@ -83,8 +83,10 @@ color: var(--color-hljs-annotations);
     color: var(--color-hljs-method);
 }
 
-div.indice ul{
+/* Imposta lo stile dell'elenco puntato dell'indice */
+div.indice ul {
     list-style-type: none;
+    padding-left: 20px;
 }
 
 div.numero {
