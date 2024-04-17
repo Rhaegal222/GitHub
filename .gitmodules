@@ -1,15 +1,9 @@
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
-[submodule "Primo-Anno"]
-	path = Primo-Anno
-	url = https://github.com/Rhaegal222/Primo-Anno
-[submodule "Secondo-Anno"]
-	path = Secondo-Anno
-	url = https://github.com/Rhaegal222/Secondo-Anno
-[submodule "Terzo-Anno"]
-	path = Terzo-Anno
-	url = https://github.com/Rhaegal222/Terzo-Anno
+[submodule "Unical"]
+	path = Unical
+	url = https://github.com/Rhaegal222/Unical
 [submodule "Rhaegal222"]
 	path = Rhaegal222
 	url = https://github.com/Rhaegal222/Rhaegal222.git
