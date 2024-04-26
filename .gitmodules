@@ -10,3 +10,6 @@
 [submodule "Rhaegal222.github.io"]
 	path = Rhaegal222.github.io
 	url = https://github.com/Rhaegal222/Rhaegal222.github.io.git
+[submodule "Magazzino-Unical"]
+	path = Magazzino-Unical
+	url = https://github.com/Rhaegal222/Magazzino-Unical.git
