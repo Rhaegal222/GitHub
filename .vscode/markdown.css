@@ -41,8 +41,8 @@ color: var(--color-link-hover);
 
 code, pre {
 font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-font-size: 1em;
-line-height: 1.357em;
+font-size: 0.9em;
+line-height: 1.2em;
 color: var(--color-code);
 }
 
