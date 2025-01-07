@@ -13,3 +13,9 @@
 [submodule "Magazzino-Unical"]
 	path = Magazzino-Unical
 	url = https://github.com/Rhaegal222/Magazzino-Unical.git
+[submodule "Password-Generator"]
+	path = Password-Generator
+	url = https://github.com/Rhaegal222/Password-Generator
+[submodule "RouterRecon"]
+	path = RouterRecon
+	url = https://github.com/Rhaegal222/RouterRecon
