@@ -1,21 +1,21 @@
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
-[submodule "Unical"]
-	path = Unical
-	url = https://github.com/Rhaegal222/Unical
-[submodule "Rhaegal222"]
-	path = Rhaegal222
-	url = https://github.com/Rhaegal222/Rhaegal222.git
-[submodule "Rhaegal222.github.io"]
-	path = Rhaegal222.github.io
-	url = https://github.com/Rhaegal222/Rhaegal222.github.io.git
 [submodule "Magazzino-Unical"]
 	path = Magazzino-Unical
 	url = https://github.com/Rhaegal222/Magazzino-Unical.git
 [submodule "Password-Generator"]
 	path = Password-Generator
 	url = https://github.com/Rhaegal222/Password-Generator
+[submodule "Rhaegal222"]
+	path = Rhaegal222
+	url = https://github.com/Rhaegal222/Rhaegal222.git
+[submodule "Rhaegal222.github.io"]
+	path = Rhaegal222.github.io
+	url = https://github.com/Rhaegal222/Rhaegal222.github.io.git
 [submodule "RouterRecon"]
 	path = RouterRecon
 	url = https://github.com/Rhaegal222/RouterRecon
+[submodule "Unical"]
+	path = Unical
+	url = https://github.com/Rhaegal222/Unical
