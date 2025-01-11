@@ -5,14 +5,14 @@ function generate_commit_message {
     # Estrai il diff delle modifiche
     diff=$(git diff --cached)
 
-    # Se non ci sono modifiche, restituisci un messaggio vuoto
+    # Se non ci sono modifiche, restituisci un messaggio predefinito
     if [ -z "$diff" ]; then
-        echo ""
+        echo "Aggiornamenti generici al codice"
         return
     fi
 
-    # Genera un messaggio base analizzando il diff
-    message=$(echo "$diff" | grep -E '^\+' | grep -v '^\+\+\+' | head -n 10 | sed 's/^+//' | awk '{print "Modifica:", $0}' | tr '\n' ' ')
+    # Genera un messaggio concatenando tutte le righe significative
+    message=$(echo "$diff" | grep -E '^\+' | grep -v '^\+\+\+' | sed 's/^+//' | awk '{print "Modifica:", $0}' | tr '\n' ' ')
 
     # Se il messaggio è vuoto, fornisci un messaggio predefinito
     if [ -z "$message" ]; then
