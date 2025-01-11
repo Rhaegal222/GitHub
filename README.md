@@ -9,6 +9,21 @@ git config --global user.name "Rhaegal222"
 git config --global user.email "rhaeagal222@gmail.com"
 ```
 
+## Submodules
+
+### Clone a repository with all submodules (including nested submodules)
+
+```bash
+git clone --recurse-submodules --remote-submodules <repository-url>
+```
+
+### Delete submodules
+
+```bash
+git rm --force <submodule path>
+git rm -rf .git/modules/<submodule path>
+```
+
 ## Branches
 
 ### Create a new branch
@@ -78,19 +93,4 @@ git log -p
 
 ```bash
 git log --stat
-```
-
-## Submodules
-
-### Clone a repository with all submodules (including nested submodules)
-
-```bash
-git clone --recurse-submodules --remote-submodules <repository-url>
-```
-
-### Delete submodules
-
-```bash
-git rm --force <submodule path>
-git rm -rf .git/modules/<submodule path>
 ```
