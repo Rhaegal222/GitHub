@@ -1,12 +1,12 @@
-# Git  Commands
+# Git Commands
 
 ## Configuration
 
 ### Set user name and email
 
 ```bash
-git config --global user.name "John Doe"
-git config --global user.email
+git config --global user.name "Rhaegal222"
+git config --global user.email "rhaeagal222@gmail.com"
 ```
 
 ## Branches
@@ -81,6 +81,12 @@ git log --stat
 ```
 
 ## Submodules
+
+### Clone a repository with all submodules (including nested submodules)
+
+```bash
+git clone --recurse-submodules --remote-submodules <repository-url>
+```
 
 ### Delete submodules
 
