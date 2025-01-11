@@ -1,14 +1,33 @@
 #!/bin/bash
 
+# Funzione per generare un messaggio di commit
+function generate_commit_message {
+    # Estrai il diff delle modifiche
+    diff=$(git diff --cached)
+
+    # Se non ci sono modifiche, restituisci un messaggio vuoto
+    if [ -z "$diff" ]; then
+        echo ""
+        return
+    fi
+
+    # Genera un messaggio base analizzando il diff
+    message=$(echo "$diff" | grep -E '^\+' | grep -v '^\+\+\+' | head -n 10 | sed 's/^+//' | awk '{print "Modifica:", $0}' | tr '\n' ' ')
+
+    # Se il messaggio è vuoto, fornisci un messaggio predefinito
+    if [ -z "$message" ]; then
+        message="Aggiornamenti generici al codice"
+    fi
+
+    # Restituisci il messaggio generato
+    echo "$message"
+}
+
+# Funzione per committare ogni directory verso l'alto
 function commit_upwards {
     local current_dir=$(pwd)
-    local script_dir=''
 
     echo "Attualmente in $(basename $current_dir)"
-
-    if [ -z $script_dir ]; then
-        script_dir=$current_dir
-    fi
 
     # Controlla se è un repository git (directory .git o file .git)
     if [ ! -d .git ] && [ ! -f .git ]; then
@@ -22,9 +41,18 @@ function commit_upwards {
 
         # Effettua il commit e il push
         git add .
-        git commit -m "Aggiornamento del repository $(basename $script_dir)"
-        git push
-        echo "Commit del repository completato"
+
+        # Genera un messaggio di commit
+        commit_message=$(generate_commit_message)
+
+        # Se il messaggio è vuoto, salta il commit
+        if [ -z "$commit_message" ]; then
+            echo "Nessuna modifica da committare in $(basename $current_dir)"
+        else
+            git commit -m "$commit_message"
+            git push
+            echo "Commit del repository completato in $(basename $current_dir)"
+        fi
     fi
 
     # Spostati nella directory superiore
