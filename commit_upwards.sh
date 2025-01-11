@@ -1,9 +1,14 @@
 #!/bin/bash
 
-# Funzione per committare ogni directory verso l'alto
 function commit_upwards {
     local current_dir=$(pwd)
+    local script_dir=''
+
     echo "Attualmente in $(basename $current_dir)"
+
+    if [ -z $script_dir ]; then
+        script_dir=$current_dir
+    fi
 
     # Controlla se è un repository git (directory .git o file .git)
     if [ ! -d .git ] && [ ! -f .git ]; then
@@ -17,7 +22,7 @@ function commit_upwards {
 
         # Effettua il commit e il push
         git add .
-        git commit -m "Aggiornamento del repository $(basename $current_dir)"
+        git commit -m "Aggiornamento del repository $(basename $script_dir)"
         git push
         echo "Commit del repository completato"
     fi
