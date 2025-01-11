@@ -12,7 +12,14 @@ function generate_commit_message {
     fi
 
     # Genera un messaggio concatenando le modifiche significative (aggiunte e rimosse)
-    message=$(echo "$diff" | grep -E '^\+|^\-' | grep -v '^\+\+\+|^\-\-\-' | sed 's/^+/Aggiunta: /;s/^- /Rimozione: /' | head -n 10 | tr '\n' ' ')
+    message=$(echo "$diff" \
+        | grep -E '^\+|^\-' \
+        | grep -v '^\+\+\+|^\-\-\-' \
+        | sed 's/^+ /Aggiunta: /;s/^- /Rimozione: /' \
+        | sed 's/[[:punct:]]//g' \
+        | awk '{$1=$1; print}' \
+        | head -n 10 \
+        | tr '\n' ' ')
 
     # Se il messaggio è vuoto, fornisci un messaggio predefinito
     if [ -z "$message" ]; then
