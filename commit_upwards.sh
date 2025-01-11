@@ -2,8 +2,8 @@
 
 # Funzione per generare un messaggio di commit
 function generate_commit_message {
-    # Estrai i nomi dei file modificati
-    files=$(git diff --cached --name-only)
+    # Estrai i nomi e lo stato dei file modificati
+    files=$(git diff --cached --name-status)
 
     # Se non ci sono file modificati, restituisci un messaggio predefinito
     if [ -z "$files" ]; then
@@ -11,8 +11,8 @@ function generate_commit_message {
         return
     fi
 
-    # Genera il messaggio con i nomi dei file
-    message="Modifiche ai file: $(echo $files | tr '\n' ' ')"
+    # Genera un messaggio che elenca i file modificati
+    message="Modifiche ai file: $(echo "$files" | awk '{print $2}' | tr '\n' ' ')"
 
     # Restituisci il messaggio generato
     echo "$message"
