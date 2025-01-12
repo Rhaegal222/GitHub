@@ -19,3 +19,6 @@
 [submodule "Unical"]
 	path = Unical
 	url = https://github.com/Rhaegal222/Unical
+[submodule "Progetto-Enterprise-Application"]
+	path = Progetto-Enterprise-Application
+	url = https://github.com/Rhaegal222/Progetto-Enterprise-Application.git
