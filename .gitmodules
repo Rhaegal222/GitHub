@@ -1,3 +1,6 @@
+[submodule ".vscode"]
+	path = .vscode
+	url = https://github.com/Rhaegal222/.vscode
 [submodule "GitHub-Private"]
 	path = GitHub-Private
 	url = https://github.com/Rhaegal222/GitHub-Private
